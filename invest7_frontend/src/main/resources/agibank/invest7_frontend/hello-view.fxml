@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="agibank.invest7_frontend.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<VBox fx:id="body" alignment="CENTER" minHeight="640" minWidth="360" spacing="20" stylesheets="@../../styles/styles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+  <ImageView fx:id="logoImageView" fitWidth="200" preserveRatio="true" />
+  <Label fx:id="bemVindo"  styleClass="tituloH2" stylesheets="@../../styles/styles.css" text="Bem vindo ao Invest7!">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font></Label>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!">
-    <onAction>#onHelloButtonClick</onAction>
-  </Button>
+  <Button fx:id="cadastro" styleClass="buttonSmall" stylesheets="@../../styles/styles.css" text="Cadastro" />
+  <Button fx:id="login" styleClass="buttonSmall" stylesheets="@../../styles/styles.css" text="Login" />
+  <Button fx:id="simulacao" styleClass="button" stylesheets="@../../styles/styles.css" text="Simulação Prévia" />
+  <Button fx:id="testeperfil" styleClass="button" stylesheets="@../../styles/styles.css" text="Teste de perfil investidor" />
+
 </VBox>

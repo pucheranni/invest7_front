@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="body" alignment="CENTER" minHeight="640" minWidth="360" spacing="20" stylesheets="@../../styles/styles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+
+  <Label fx:id="tituloLogin" styleClass="tituloH2" stylesheets="@../../styles/styles.css" text="Faça seu login" />
+
+  <Label text="E-mail" />
+  <TextField fx:id="emailFieldLogin" promptText="Digite seu e-mail" />
+
+  <Label text="Senha" />
+  <TextField fx:id="senhaFieldLogin" promptText="Digite sua senha" />
+
+  <Button id="#loginLogin" fx:id="loginLogin" styleClass="button" stylesheets="@../../styles/styles.css" text="Login" />
+
+
+</VBox>

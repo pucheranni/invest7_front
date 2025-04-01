@@ -1,0 +1,60 @@
+/* styles.css */
+.root {
+    --azul90: #1B76FF;
+    --azul60: #67A4FF;
+    --verde90: #41C769;
+    --branco: #FFFFFF;
+    --cinza50: #666666;
+
+}
+
+.body {
+    -fx-padding: 30px;
+}
+
+.button {
+    -fx-pref-width: 250px;
+    -fx-pref-height: 50px;
+    -fx-text-fill: var(--branco);
+}
+
+.buttonSmall {
+    -fx-pref-width: 125px;
+    -fx-pref-height: 50px;
+    -fx-text-fill: var(--branco);
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+}
+
+.tituloH2 {
+    -fx-font-size: 24px;
+
+}
+
+.tituloH2#bemVindo {
+    -fx-text-fill: var(--cinza50);
+}
+
+.tituloH2#tituloLogin {
+    -fx-text-fill: var(--cinza50);
+}
+
+.buttonSmall#cadastro {
+    -fx-background-color: var(--azul90);
+}
+
+.buttonSmall#login {
+    -fx-background-color: var(--verde90);
+}
+
+.button#simulacao {
+    -fx-background-color: var(--azul60);
+}
+.button#testeperfil {
+    -fx-background-color: var(--azul60);
+}
+
+.button#loginLogin {
+    -fx-background-color: var(--azul60);
+}
+
