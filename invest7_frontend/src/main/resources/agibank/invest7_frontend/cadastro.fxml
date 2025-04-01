@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="body" alignment="CENTER" minHeight="640" minWidth="360" spacing="20" stylesheets="@../../styles/styles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+
+  <Label text="Faça seu cadastro" />
+
+  <Label text="Nome Completo" />
+  <TextField fx:id="nomecadastro" promptText="Ex:Maria Silva" />
+
+  <Label text="CPF" />
+  <TextField fx:id="CPFcadastro" promptText="Ex: 567.978.654-89" />
+
+  <Label text="Gênero" />
+  <ComboBox fx:id="comboBoxGen" prefWidth="100" promptText="Escolha" visibleRowCount="3" />
+
+  <Label text="Data de Nascimento" />
+  <TextField fx:id="dtNascCadastro" promptText="dd/mm/aaaa" />
+
+  <Label text="Endereço" />
+  <TextField fx:id="endCadastro" promptText="Ex: Rua Um, 90, Bairro Dois, Campinas, SP" />
+
+  <Label text="CEP" />
+  <TextField fx:id="endCadastro" promptText="Ex: 13980-763" />
+
+  <Label text="Senha" />
+  <TextField fx:id="senhaFieldCadastro" promptText="Escolha sua senha" />
+
+  <Button fx:id="cadastrar" styleClass="button" text="Cadastrar" />
+
+
+</VBox>
